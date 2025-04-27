@@ -49,7 +49,7 @@ export default function App() {
               <button
                 onClick={() => {
                   setScrolling(true);
-                  document.getElementById('signup').scrollIntoView({ behavior: 'smooth' });
+                  document.getElementById('signup').scrollIntoView({  behavior: 'smooth' });
                   setTimeout(() => setScrolling(false), 1500);
                 }}
                 className="px-6 py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-xl shadow-md transition"
